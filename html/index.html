@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Expense Management System</title>
+</head>
+<body>
+    <main>
+        <form action="" name="mainForm">
+            <div>
+                <!-- <ul>
+                    <li class="inline"> -->
+                        <label>Billing:</label>
+                        <select name="billingType">
+                            <option value="talview">Talview</option>
+                            <option value="client">Client</option>
+                        </select>
+                    <!-- </li>
+                    <li class="inline"> -->
+                        <label>Client:</label>
+                        <input type="text" name="clientName" placeholder="Enter Client">
+                    <!-- </li>
+                </ul> -->
+                <br>
+                <label>Expense Category:</label>
+                <select name="expenseCategory">
+                    <option value="food">Food</option>
+                    <option value="travel">Travel</option>
+                    <option value="stay">Stay</option>
+                    <option value="other">Other</option>
+                </select>
+                <br>
+                <label>Remarks:</label>
+                <textarea name="remarks"></textarea>
+                <br>
+                <label>Bills and Invoice</label>
+                <input type="file" name="browseFiles">
+                <label>Amount:</label>
+                <input type="number" name="amount">
+                <br>
+                <label>Bill Date:</label>
+                <input type="date" name="billDate">
+                <br>
+                <button click="index.html">Next</button>
+            </div>
+        </form>
+        <br>
+        <h4>Food:</h4>
+        <form action="" method="" name="Food">
+            <label>No Of Dinners:</label>
+            <input type="number" name="noOfDinners" >
+            <br>
+            <input type="submit" name="submit" value="Submit">
+            <button click="index.html">Cancel</button>
+        </form>
+        <br>
+        <h4>Travel:</h4>
+        <form action="" method="" name="Travel">
+            <label>Mode:</label>
+            <select name="modeOfTravel">
+                <option value="cab">Cab</option>
+                <option value="train">Train</option>
+                <option value="bus">Bus</option>
+                <option value="flight">Flight</option>
+                <option calue="other">Other</option>
+            </select>
+            <br>
+            <label>From:</label>
+            <input type="text" name="fromLocation">
+            <br>
+            <label>To:</label>
+            <input type="text" name="toLocation">
+            <br>
+            <input type="submit" name="submit" value="Submit">
+            <button click="index.html">Cancel</button>
+        </form>
+        <br>
+        <h4>Stay:</h4>
+        <form action="" method="" name="Stay">
+            <label>From Date:</label>
+            <input type="date" name="fromDate">
+            <br>
+            <label>To Date:</label>
+            <input type="date" name="toDate">
+            <br>
+            <label>Place Of Stay:</label>
+            <input type="text" name="placeOfStay" >
+            <br>
+            <label>Destination City/State/Country:</label>
+            <textarea name="destination"></textarea>
+            <br>
+            <input type="submit" name="submit" value="Submit">
+            <button click="index.html">Cancel</button>
+        </form>
+
+    </main>
+</body>
+</html>
